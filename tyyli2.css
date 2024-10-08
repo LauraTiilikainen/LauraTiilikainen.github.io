@@ -1,0 +1,139 @@
+@media (min-width: 380px), (max-width: 767px){
+body {
+    margin: 0;
+    background-color: white;
+  }
+
+.container {
+    margin-left: 0cm;
+
+}
+
+.otsikko-kuva {
+    background-image: url(IMG_2179\(kopio\).JPG);
+    background-color: #cccccc;
+    height:200px; /*adjusted for mobile*/
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+  }
+.otsikko {
+    font-size: 30px;
+    font-family: "forum";
+    font-weight: normal;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px #060606;
+
+  }
+h1{
+    font-size: 30px;
+    font-family: "forum";
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 2px 2px 4px #060606;
+}
+
+.h21{
+    margin-left: 6cm;/*adjusted fo mobile*/ /*margin-left 6cm*/
+    font-size: 30px; /*adjusted fo mobile*/
+    font-weight: bolder;
+    font-family: "oooh baby";
+    color: #060606;
+}
+.h22{
+    margin-left: 6cm;/*adjusted fo mobile*/ /*margin left 6cm*/
+    font-family: "mulish";
+    font-size: 22px; /*adjusted for mobile*/
+    font-weight: 240;
+    color: #060606;
+
+}
+
+.profiilikuva{
+    width: 25%; /*adjusted fo mobile*/
+    height: 60%;
+    float: left;
+    margin-top: 4px;
+    margin-left: 1.5cm;
+    margin-right: 1cm;
+    object-fit: cover;
+
+}
+.tervehdys{
+    margin-top: 1cm; /*adjusted for mobile*/
+    font-size: 20px;
+}
+
+.profiiliTeksti{
+    margin-top: 30px;
+    margin-right: 1.5cm;
+    margin-left: 6cm;
+    font-size: 14px;
+    color: black;
+    font-family: "forum";
+    font-weight: 500;
+}
+}
+
+/* desktop */
+@media (min-width: 768px) {
+
+    .otsikko-kuva{
+        height: 500px;
+    }
+
+    .otsikko{
+        font-size: 38px; /*larger size for bigger screens*/
+        text-shadow:  2px 2px 4px #060606;
+    }
+
+
+    .h21 {
+        margin-left: 0cm;
+        font-size: 38px;
+    }
+
+    .h22 {
+        margin-left: 0cm;
+        font-size: 30px;
+    }
+
+    .profiilikuva {
+        width: 23%;
+        height: 400px;
+        float: left;
+        margin-right: 2cm;
+        margin-left: 4cm;
+
+    }
+
+    .tervehdys {
+        margin-top: 2cm;
+        margin-left: 10cm;
+        font-size: 30px;
+    }
+
+    .profiiliTeksti {
+        margin-right: 4cm;
+        margin-left: 10cm;
+        font-size: 18px;
+    }
+} 
+
+
+
+
+
+
+
+
+
+
